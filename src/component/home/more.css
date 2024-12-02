@@ -1,0 +1,22 @@
+
+.screen{
+  margin-top: 3rem;
+  /* border: 3px solid green; */
+  margin-left: 2rem;
+  margin-right: 2rem;
+ 
+}
+.full-screen-container {
+    display: flex; /* Optional: To center content */
+    justify-content: center; /* Centers image horizontally */
+    overflow: hidden; /* Prevent overflow */
+  }
+  
+  .full-screen-container img {
+    /* border: 3px solid rgb(231, 220, 14); */
+    width: 100%; /* Image takes full width of container */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensures the image covers the container */
+    display: block; /* Avoid extra space around image */
+  }
+  

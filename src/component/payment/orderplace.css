@@ -1,0 +1,88 @@
+/* General Styling */
+.order-main{
+    margin: 2rem;
+    background-color:#FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .order-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+   
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  /* Checkmark Section */
+  .checkmark {
+    margin-bottom: 20px;
+  }
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    background-color: #e8f5e9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .check {
+    font-size: 2.5rem;
+    color: #4caf50;
+    font-weight: bold;
+  }
+  
+  /* Success Message */
+  h1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  /* Order Summary */
+  .order-summary {
+    border: 1px solid #ddd;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .order-summary p {
+    margin: 5px 0;
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+  }
+  
+  /* Back Button */
+  .back-button {
+    background-color: #ffa500;
+    width: 89%;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #cc8400;
+
+  }
+  

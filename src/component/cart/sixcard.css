@@ -1,0 +1,56 @@
+.maindivf{
+    margin-left: 2rem;
+    margin-right: 2rem;
+   
+
+
+    /* border: 1px solid red; */
+    margin-top: 3rem;
+}
+.maindivf h1{
+    margin-left:1rem;
+}
+.seconddiv{
+    display: flex;
+    /* justify-content: space-between;  */
+}
+
+.seconddiv p{
+    font-size:smaller;
+}
+
+.cards {
+    margin-top: 2rem;
+    /* border: 1px solid #0d10eb;  */
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+   
+}
+.cards-imge{
+    width: 180px;
+    height:auto;
+}
+
+
+
+
+
+.cards-footer{
+    /* background-color: #FAFAFA; */
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    
+   
+    
+}
+
+
+
+
+
+
+.card-footer p{
+    color:  #ff9500;
+}

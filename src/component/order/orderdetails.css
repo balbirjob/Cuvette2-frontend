@@ -1,0 +1,148 @@
+.ordeDet{
+    /* border: 2px solid greenyellow; */
+    padding: 2rem;
+
+}
+.order-heading{
+    /* border: 2px solid rgb(17, 66, 201); */
+    display: flex;
+    align-items: center; /* Aligns items vertically in the center */
+    margin: 1rem;
+    
+
+}
+
+
+.order-price{
+    /* border: 2px solid rgb(17, 66, 201); */
+    padding: 10px;
+    display: flex;
+    gap:1rem;
+    justify-content: space-between;
+    margin: 1rem;
+
+}
+
+.product-price1{
+    border: 1px solid ;
+    border-radius: 0.5rem;
+    width: 50%;
+
+}
+
+
+.item-detatl{
+    /* border: 2px solid rgb(6, 71, 114); */
+    display: flex;
+    gap:1rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+
+}
+
+.item-details2{
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+}
+.prodct-name{
+    font-weight: bold;
+}
+.number{
+    font-size: small;
+    font-weight: lighter;
+
+}
+
+
+.notes{
+    margin-left: 1rem;
+    font-weight: lighter;
+    font-size: small;
+}
+.noteinput{
+    padding: 10px;
+    width: 90%;
+    margin-left: 1rem;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+}
+.item-detia-last1{
+    margin-right: 1rem;
+}
+/* ...........right div............... */
+
+
+
+.product-price2{
+    /* border: 2px solid rgb(6, 71, 114); */
+    width: 50%;
+}
+
+
+
+.item-detatl2{
+    border: 1px solid black;
+    display: flex;
+    gap:1rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+
+    border-radius: 5rem;
+    
+
+}
+
+.item-details3{
+    display: flex;
+   
+}
+.prodct-name2{
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+.number2{
+    font-size: small;
+    font-weight: lighter;
+
+}
+
+.item-detia-last{
+    margin-right: 1rem;
+}
+
+/* subtotal */
+
+.subtotal{
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+.itemI{
+    margin-left: 1rem;
+    padding: 0.5rem;
+}
+
+.itemP{
+    padding: 0.5rem;
+    margin-right: 1rem;
+}
+
+.chobtn{
+    margin-top: 3rem;
+    
+    
+}
+.chobtn-pay{
+    width: 90%;
+    padding: 0.8rem;
+    margin-left: 2rem;
+    border-radius: 2rem;
+    background-color: #FC8A06;
+    border: none;
+    color: white;
+    
+}

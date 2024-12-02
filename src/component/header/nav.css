@@ -1,0 +1,53 @@
+/* ........home-2........... */
+
+.home-2{
+    /* border: 1px solid rebeccapurple; */
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+.home-2-log{
+    width: 200px;
+   
+}
+
+ul{
+    display: flex;
+    gap: 2.2rem;
+    list-style-type: none;
+    margin-top: 0.8rem;
+    font-weight: bold;
+    
+    
+}
+li{
+   
+    padding: 0.7rem;
+    border-radius: 2rem;
+
+}
+li:hover {
+    background-color: #ff9500;
+    color: white;
+}
+
+.home-2-butn{
+   background-color: #000;
+   margin-right: 1rem;
+   color: #FAFAFA;
+   padding: 0.5rem;
+   border-radius: 2rem;
+}
+
+.icon-btn{
+    width: 25px;
+    height: 25px;
+    border: 2px solid white;
+    background-color: #ff9500;
+    border-radius:100%;
+    
+   
+}

@@ -1,0 +1,57 @@
+/* Container for the input and button */
+.subscribe-container {
+  display: flex;
+  align-items: center;
+  background-color: #e0e0e0; /* Light grey background */
+  border-radius: 50px; /* Fully rounded edges */
+  padding: 5px;
+  width: fit-content; /* Adjust width automatically based on content */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  position: relative; /* Needed for overlap positioning */
+}
+
+/* Input field styling */
+.subscribe-input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #6c6c6c; /* Grey text color */
+  background: transparent;
+  padding: 12px 15px; /* Adjust padding for smaller size */
+  border-radius: 50px; /* Rounded edges */
+  width: 200px; /* Reduce input field width */
+  z-index: 1; /* Ensure input is above button overlap */
+  position: relative;
+}
+
+/* Button styling */
+.subscribe-button {
+  border: none;
+  background-color: #ff9500; /* Bright orange */
+  color: white; /* White text */
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 20px; /* Adjust padding for button */
+  border-radius: 50px; /* Fully rounded button */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-left: -15px; /* Adjust overlap for smaller input */
+  z-index: 2; /* Place the button above the input */
+}
+
+/* Button hover effect */
+.subscribe-button:hover {
+  background-color: #e08900; /* Slightly darker orange */
+  transform: scale(1.05); /* Slight enlargement on hover */
+}
+
+/* Input placeholder styling */
+.subscribe-input::placeholder {
+  color: #b3b3b3; /* Light grey placeholder */
+  font-size: 16px;
+}
+
+/* Focus effect */
+.subscribe-container:focus-within {
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15); /* Highlight on focus */
+}

@@ -1,0 +1,125 @@
+/* Wrapper for the category section */
+
+
+
+.category {
+  border: 1px solid green;
+
+
+
+  margin: 20px;
+  padding: 20px;
+  background-color: #f8f9fa; 
+  /* Light background for the section */
+  border-radius: 10px;
+}
+
+/* three card section */
+/* Main container for cards and cart */
+.layout-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+/* Card container for the 3 cards */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex: 3; /* Make this section take up 3 parts of the available space */
+}
+
+.card {
+  flex: 1 1 calc(30% - 20px); /* Each card takes up ~30% of the row */
+  max-width: 300px; /* Limit the maximum width of the card */
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.card img {
+  width: 100%; /* Make the image responsive */
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Cart section */
+.cart-section {
+  flex: 1; /* Make this section take up 1 part of the available space */
+  max-width: 400px; /* Optional: Limit the width of the cart */
+}
+
+/* Add responsiveness */
+@media (max-width: 768px) {
+  .layout-container {
+    flex-direction: column; /* Stack cards and cart vertically */
+  }
+
+  .card-container,
+  .cart-section {
+    flex: 1 1 100%; /* Full width for smaller screens */
+  }
+}
+
+
+
+
+/* burger section  */
+
+/* Styling for the category title */
+.category h2 {
+  font-size: 32px;
+  font-weight: bolder;
+  color: #FC8A06;
+ 
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 40px;
+  margin-left: 5rem;
+  padding-top: 40px;
+}
+
+/* Grid layout for product cards */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+  gap: 30px; /* Spacing between cards */
+  justify-items: center; /* Center the cards in their grid cell */
+}
+
+
+
+
+
+
+
+
+
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+  }
+}
+
+@media (max-width: 600px) {
+  .product-grid {
+    grid-template-columns: 1fr; /* 1 card per row */
+  }
+}
+
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .product-grid {
+    grid-template-columns: 1fr; /* One item per row for smaller screens */
+  }
+}

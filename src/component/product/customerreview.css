@@ -1,0 +1,121 @@
+
+   .scroll-main {
+    padding: 20px;
+    background-color: #d9d9d9;
+    margin-top: 3rem;
+  }
+  
+  .csroll-main-1 {
+    background-color: #d9d9d9;
+    /* border: 1px solid rebeccapurple; */
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  
+  .hedingScroll {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btnspace {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btnscroll {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: none;
+    background-color: #fc8a06;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .swrapper {
+    display: flex;
+    gap: 1rem;
+    overflow: hidden;
+  }
+  
+  .cimg {
+    flex: 0 0 150px; /* Adjust this for visible image width */
+    border: 1px solid rgb(202, 12, 47);
+  }
+  
+  .cimg img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+
+  /* ................. */
+  .carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    /* max-width: 600px; */
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  /* Wrapper for the carousel */
+  .carousel-wrapper {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  /* Carousel content for infinite scroll */
+  .carousel-content {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  /* Individual carousel items */
+  .carousel-item {
+    flex: 0 0 33.33%; /* Display 3 items at a time */
+    box-sizing: border-box;
+    padding: 5px;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Buttons for navigation */
+  .carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+  }
+  
+  .carousel-btn:focus {
+    outline: none;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }

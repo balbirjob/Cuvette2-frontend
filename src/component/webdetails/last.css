@@ -1,0 +1,47 @@
+/* Container for stats */
+.stats-container {
+
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 1rem;
+
+
+
+    display: flex;
+    /* justify-content: space-evenly;  */
+    justify-content: space-between;
+    align-items: center; 
+    background-color: #FC8A06; 
+    color: white;
+    border-radius: 8px;
+    margin-top: 1.6rem;
+
+    
+    
+  }
+  
+ 
+  .stat-item {
+    text-align: center; 
+    border-left: 1px solid rgba(255, 255, 255, 0.5); 
+    padding: 0 20px; 
+    margin: 0.5rem;
+  }
+  
+  .stat-item:first-child {
+    border-left: none; 
+  }
+  
+  
+  .stat-item h2 {
+    font-size: 32px; 
+    margin: 0; 
+    font-weight:lighter; 
+  }
+  
+  /* Paragraph for labels */
+  .stat-item p {
+    font-size: 16px; 
+    margin: 5px 0 0; 
+  }
+  

@@ -1,0 +1,16 @@
+.partner{
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    border: 1px solid rebeccapurple;
+
+}
+
+.partenr-image, .rider-image{
+    width: 660px;
+    height: auto;
+}

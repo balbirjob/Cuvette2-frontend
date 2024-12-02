@@ -1,0 +1,30 @@
+.Rmaindivf{
+    /* border: 1px solid red; */
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.Rmaindivf h1{
+    margin-left:1rem;
+}
+.Rseconddiv{
+    display: flex;
+    
+    justify-content: space-between; 
+}
+
+.Rcard {
+    margin-top: 3rem;
+    /* border: 1px solid #0d10eb;  */
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+   
+}
+.Rcard-imge{
+    width: 210px;
+    height:auto;
+}
+
+

@@ -1,0 +1,30 @@
+.pronav{
+    margin-top: 4rem;
+    background-color:  #ff9500;
+
+}
+
+
+.pronavul{
+    display: flex;
+    gap: 2.2rem;
+    list-style-type: none;
+    margin-top: 0.8rem;
+    font-weight: bold;
+    padding: 1rem;
+
+    margin-left: 2rem;
+    
+    
+}
+.pronavli{
+   
+    padding: 0.7rem;
+    border-radius: 2rem;
+    color: white;
+
+}
+.pronavli:hover {
+    background-color: black;
+    color: white;
+}

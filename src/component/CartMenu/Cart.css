@@ -1,0 +1,83 @@
+
+.cart{
+    width: 300px;
+    border: 1px solid #f44336;
+    margin-top: 1rem;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .cart-details p {
+    margin: 0;
+    color: #333;
+    font-size: 16px;
+    display: inline-block;
+  }
+  
+  .delete-button {
+    background-color: transparent;
+    border: none;
+    color: #f44336; /* Red color for delete */
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    color: #d32f2f;
+  }
+  
+  .cart-summary {
+    margin-top: 20px;
+  }
+
+  .linedeliveryfee{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cart-summary-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .cart-summary-item p {
+    margin: 0;
+  }
+  
+  .cart-summary-item strong {
+    font-weight: bold;
+  }
+  
+
+  .totalbtn{
+    width: 90%; /* or any fixed width */
+  margin-left: auto;
+  margin-right: auto;
+  }
+.totaltopay, .totaltocheck{
+
+ padding: 10px;
+ padding-left: 20px;
+ text-align: center;
+ width: 100%;
+ color: white;
+ font-size: 20px;
+ 
+}
+
+.totaltopay{
+  background-color: #FC8A06;
+}
+.totaltocheck{
+  background-color: #028643;
+}
+

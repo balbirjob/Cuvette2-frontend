@@ -1,0 +1,112 @@
+.container-main{
+    display: flex;
+    /* border: 2px solid greenyellow; */
+   
+}
+
+.first-part{
+    width: 50%;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    /* border: 2px solid rgb(224, 143, 21); */
+    
+}
+.logo{
+   margin-top: 7rem;
+  display: flex; /* Enable Flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+}
+
+.first-heading{
+    margin-top: 3rem;
+    margin-left: 5rem;
+   
+}
+
+.first-heading p{
+    margin-top: 1rem;
+    /* margin-bottom: 2rem; */
+    color: #313957;
+    
+}
+
+form{
+    border: 1px solid darkblue;
+    margin: 2rem;
+}
+
+
+
+
+
+
+.first-form{
+    width: 80%;
+    margin-bottom: 1rem;
+}
+
+.first-form label{
+
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #313957;
+    margin-left: 3.2rem;
+}
+
+.first-form input{
+    width: 100%;
+    padding: 0.6rem;
+    border-radius: 2rem;
+    border: 1px solid #ccc;
+    margin-left: 3rem;
+}
+
+.sign-in-button{
+    margin-top: 0.5rem;
+    padding: 0.6rem;
+    /* padding: 0.8rem 1.5rem; */
+    width: 80%;
+    border-radius: 2rem;
+    border: none;
+    background-color: #FC8A06;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #fff;
+    margin-left: 3rem;
+}
+
+.sign-in-button:hover{
+    background-color: #ff7f00;
+}
+
+.signup-text {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: #313957;
+    text-align: center;
+    
+  }
+  
+  .signup-text a {
+    color: #ff9100;
+    text-decoration: none;
+  }
+  
+  .signup-text a:hover {
+    text-decoration: underline;
+  }
+
+
+
+
+/* ......image div..... */
+.second-part{
+    margin-right: 2rem;
+    margin-top: 2rem;
+    /* margin-left: 9rem; */
+    /* border: 2px solid greenyellow; */
+}
+
+
+/* ....footer.... */

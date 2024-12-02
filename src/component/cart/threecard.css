@@ -1,0 +1,60 @@
+.maindiv{
+    /* border: 1px solid red; */
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+}
+
+.fistdiv{
+    /* border: 1px solid rgb(22, 216, 32); */
+    display: flex;
+    justify-content: space-between;
+}
+.baner-img{
+    margin-top: 1rem;
+}
+
+li{
+   
+    padding: 0.7rem;
+    border-radius: 2rem;
+
+}
+li:hover {
+    background-color: white;
+    color: #ff9500;
+    border: 1px solid #ff9500;
+}
+
+
+
+
+/* ........... */
+.seconddiv{
+  display: flex;
+  justify-content: space-between ;
+  
+ 
+
+}
+
+.card {
+    margin-top: 1.3rem;
+    /* width: 500px;  */
+    /* Set the desired width */
+    
+    /* padding: 10px;  */
+    /* Optional: Add padding for spacing */
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+   
+    /* border: 4px solid #0d10eb;  */
+   
+  }
+
+  .fstcard,.stcard,.ttcard{
+    /* border: 4px solid #aceb0d; */
+    width: 100%;
+    height: auto;
+
+  }

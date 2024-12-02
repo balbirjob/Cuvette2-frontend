@@ -1,0 +1,137 @@
+.kcontainer{
+
+
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+
+    background-color: #D9D9D9;
+    border: 1px solid  #D9D9D9;
+    margin-top: 3rem;
+    /* border-radius: 1rem; */
+    position: relative;
+    
+    
+}
+.heding-section{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.heding-section h2{
+    margin-top: 1rem;
+
+
+}
+
+.heding-section ul{
+    font-weight: lighter;
+    /* border: 1px solid red; */
+    margin: 0.3rem; 
+
+}
+
+.heding-section ul li:hover{
+    font-weight: bold;
+    color: black;
+}
+
+.main-section{
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: #FFFFFF;
+    margin-bottom: 5rem;
+    border-radius: 0.5rem;
+
+    /* border: 1px solid rgb(233, 12, 86); */
+}
+
+.div-one{
+    margin-left: 3rem;
+    margin-top: 2rem;
+    /* border: 1px solid rgb(12, 35, 210); */
+    width: 365px;
+    line-height: 1.6;
+    text-align: center;
+    font-weight: bold;
+}
+.div-one-p{
+    
+    border-radius: 2rem;
+    background-color: #FC8A06;
+    padding: 0.6rem;
+    
+}
+
+.div-one p{
+    margin-bottom: 1rem;
+}
+
+
+
+/* ................ */
+
+.div-two{
+    margin-top: 2rem;
+    /* border: 1px solid black; */
+    margin-right: 2rem;
+
+}
+.inerdiv-two{
+    display: flex;
+    gap: 0.4rem;
+    margin-left: 2rem;
+    /* justify-content: space-between; */
+}
+
+.cardx{
+    background-color: #D9D9D9;
+    border-radius: 1rem;
+    width: 200px;
+    
+
+}
+.cardx p{
+    text-align: center;
+}
+.cardx .card-p {
+    margin-bottom: 1rem;
+}
+
+.cardx h3{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+.order-image,.getyou-image{
+  margin-top: 0.9rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+
+.food-image{
+    margin-top: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.6rem;
+}
+
+
+/* ................. */
+.footer-p{
+    /* border: 1px solid black; */
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: small;
+}
